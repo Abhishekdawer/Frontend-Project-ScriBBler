@@ -1,0 +1,297 @@
+.post {
+    position: relative;
+    width: 45%;
+    height: 20%;
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px 10px 10px 20px;
+    float:left;
+    border-radius: 15px;
+}
+    
+.post-left {
+        width: 15%;            
+        max-width: 15%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+}
+.post-content {
+        width: 75%;           
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px; 
+        overflow: hidden;     
+}
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    height: 25px;
+    }
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.post-desc{
+    height: 100px;
+    margin-bottom: 0 !important;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+.allPostsContainer {
+    height: 100%;
+    width: 100%;
+
+}
+#head1{
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+  }
+  #head2{
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+  }
+  #nm
+  {
+      color: black;
+  }
+  #bind{
+    position:absolute;
+    right:15px;
+    top:15px;
+}
+#five{
+    left: 25%;
+    /* align-items: center; */
+    /* justify-content: center; */
+ }
+ #bars{
+    position:absolute;
+    right:15px;
+    bottom:15px;
+}
+.abc1
+{
+  position: absolute;
+  right:15px;
+  top:15px;
+}
+.abc1 img{
+  height: 20px;
+  width: 20px;
+}
+
+/* ********************************** */
+/************MODAL**************MODAL**************************  */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #head1{
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    text-align: center;
+  }
+  .sh6{
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+  
+  }
+  form{
+    border-top: 1px solid black;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top:0px;
+    padding: 0%;
+    margin: 0%;
+  }
+  input[type=text]
+  {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f1f1f1;
+  }
+  input[type=password]
+  {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f1f1f1;
+  }
+  input[type=textbox]
+  {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f1f1f1;
+  }
+  #sub1{
+    background-color: #0ec038;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+  }
+  #redirect
+  {
+    color: dodgerblue;
+    cursor: pointer;
+  }
+  /* ************************************************ */
+  /* MODAL2*******************MODAL2*************/
+  .modal1{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content1 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-content1 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+  }
+  /* ******************DELETE MODAL*************** */
+  #ya
+  {
+      background-color: red;
+      color: white;
+      border-color: transparent;
+      padding: 5px 10px;
+      width: 60px;
+      left: 50px;
+  }
+  #btns{
+      left: 30%;
+      position: relative;
+  }
+  #na
+  {
+      font-family: 'Ubuntu Condensed';
+      background-color: green;
+      color: white;
+      border-color: transparent;
+      padding: 5px 10px;
+      width: 60px;
+      right: 50px;
+  }
+  .modal3{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  
+  /* The Close Button */
+ 
+  .modal-content3 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+  }

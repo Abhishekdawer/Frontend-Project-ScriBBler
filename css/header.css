@@ -1,0 +1,45 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.signB
+{
+    right: 0.5%;
+    top: 1%;
+    position: fixed;
+}
+.btn
+{
+    background-color: #2519ff;
+    color: white;
+    padding: 10px 10px;
+}
+.heading1
+{
+    font-family: 'Satisfy';
+     font-size: 50px;
+     color: #2519ff;
+    margin: 0px;
+    position: relative;
+    left:20px;
+    width: 50%;
+}
+.heading2
+{
+    font-family: 'Marck Script';
+     font-size: 15px;
+     color: black;
+    position: relative;
+    left:20px;
+    width: 50%;
+}
+.postButtons{
+    position: fixed;
+    left: 45%;
+    top: 50%;
+}
+.btn1
+{
+    background-color: #f0c000;
+    color: black;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
